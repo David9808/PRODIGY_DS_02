@@ -789,27 +789,7 @@ fig.show()
 # 
 # 5. **Exceptions**: While children generally had high survival rates, third-class children had notably lower chances, highlighting that class remained a significant factor even among the prioritized groups.
 
-# In[48]:
 
-
-import nbformat
-from nbconvert import PythonExporter
-
-# Load the notebook
-with open('Titanic.ipynb") as f:
-    notebook = nbformat.read(f, as_version=4)
-
-# Export only code cells
-python_exporter = PythonExporter()
-python_code, _ = python_exporter.from_notebook_node(notebook)
-
-# Save the code cells to a .py file
-with open("your_notebook_code_cells.py", "w") as f:
-    f.write(python_code)
-
-
-
-# In[ ]:
 
 
 
