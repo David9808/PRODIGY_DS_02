@@ -1,0 +1,1 @@
+I conducted analysis using several statistical and visualization techniques on the well known titanic dataset to detect the leading factors of survival for one of the greatest maritime disasters ever recorded.
